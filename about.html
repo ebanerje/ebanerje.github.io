@@ -2,12 +2,19 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device=width">
+        <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      <!--Let browser know website is optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
          <meta name="description" content="Eshita Banerjee">
          <meta name="keywords" content="eshita, banerjee, portfolio, eshita banerjee, hci, information systems, carnegie mellon">
          <meta name="author" content="Eshita Banerjee">
-        <title>Eshita Banerjee | Home</title>
-        <!-- <link rel="stylesheet" href="./css/style.css"> -->
+        <title>Eshita Banerjee | About</title>
+        <link rel="stylesheet" href="./css/style.css">
+        <!--Bootstrap-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <!-- <script type="text/javascript" src="main.js" async=""></script> -->
     </head>
     <body>
@@ -17,23 +24,54 @@
                     <h1><span class="current"><a href="about.html"></a></span></h1>
                 </div>
                 <nav>
+                    <div class="nav-wrapper">
+                      <a href="index.html" class="brand-logo">eshita banerjee</a>
+                      <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="resume.html">Resume</a></li>
+                        <li id="selected"><a href="about.html">About</a></li>
+                      </ul>
+                    </div>
+                  </nav>
+                <!--<nav>
                     <ul>
                         <li><a href="projects.html">Projects</a></li>
                         <li><a href="resume.html">Resume</a></li>
                         <li><a href="about.html">About</a></li>
                     </ul>
-                </nav>
+                </nav> -->
             </div>
         </header>
+        <div class="row">
+            <div class="col s12 m6">
+              <div class="card lime lighten-3">
+                <div class="card-content black-text">
+                  <span class="card-title">About Me</span>
+                  <p class="flow-text">I am a student at Carnegie Mellon University. I am double majoring in Computer Information 
+                    Systems and Human Computer Interactions. I am also doing a minor in Business Adminstration. </p>
+                <p class="flow-text"> I am passionate about solving problems about people for people. I use my interdisciplinary
+                     lens to not only analyze logical solutions, but also to craft delightful experiences.</p>
+                </div>
+                <div class="card-action">
+                  <a href="#">Contact</a>
+                </div>
+              </div>
+            </div>
+          </div>
 
-    	<section id="showcase">
+    	<!--<section id="showcase">
     		<div class="container">
-                <p>I am a student at Carnegie Mellon University. I am pursuing a double </p>
+                <p>I am a student at Carnegie Mellon University. I am double majoring in Computer Information 
+                    Systems and Human Computer Interactions. I am also doing a minor in Business Adminstration. </p>
+                <p>I am passionate about solving problems about people for people. I use my interdisciplinary
+                     lens to not only analyze logical solutions, but also to craft delightful experiences.</p>
     		</div>
-    	</section>
+    	</section>-->
 
     	<footer>
     		<p>Eshita Banerjee, Copyright &copy; 2020</p>
-    	</footer>
+        </footer>
+        <!--Materialize-->
+        <script type="text/javascript" src="js/materialize.min.js"></script>
     </body>
 </html>
