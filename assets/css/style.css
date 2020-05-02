@@ -162,6 +162,12 @@ nav ul a:focus {
 }
 
 /*About*/
+
+#aboutimgtext {
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+}
+
 .card .card-content p {
     text-decoration: none;
     font-weight: 200;
