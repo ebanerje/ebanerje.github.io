@@ -18,40 +18,43 @@
         <!-- <script type="text/javascript" src="main.js" async=""></script> -->
     </head>
     <body>
-        <header>
-            <div class="container">
-                <div id="branding">
-                    <h1><span class="current"><a href="about.html"></a></span></h1>
-                </div>
-                <!-- Nav Bar -->
-                <nav>
-                    <div class="nav-wrapper">
-                      <a href="index.html" class="brand-logo">eshita banerjee</a>
-                      <ul id="nav-mobile" class="right hide-on-med-and-down">
-                        <li><a href="projects.html">Projects</a></li>
-                        <li id="selected"><a href="resume.html">Resume</a></li>
-                        <li ><a href="about.html">About</a></li>
-                      </ul>
-                    </div>
-                  </nav>
-                  <!-- Project 1  -->
-                  <div class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                      <img class="activator" src="assets/img/project.png">
-                    </div>
-                    <div class="card-content">
-                      <span class="card-title activator grey-text text-darken-4">Type And Hierarchy<i class="material-icons right">more_vert</i></span>
-                      <p><a href="https://medium.com/cdf-2018-fall/project-3-type-and-hierarchy-2805b7ed930c">Process</a></p>
-                    </div>
-                    <div class="card-reveal">
-                      <span class="card-title grey-text text-darken-4">Type And Hierarchy<i class="material-icons right">close</i></span>
-                      <p>This is a type specimen poster for the typeface Times New Roman.</p>
-                      <p>For this project I had to create a type specimen poster. I used the variables I have experimented with like scale, weight, linespacing, and
-                        indentation. I also used new ones such as color, tone, value, texture, and position.</p>
-                    </div>
-                  </div>
-                <!-- Project 2 -->
-                  <div class="card">
+      <header>
+          <div class="container">
+              <div id="branding">
+                  <h1><span class="current"><a href="projects.html"></a></span></h1>
+              </div>
+              
+              <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+              <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+              <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+             <!-- Nav Bar -->
+             <nav>
+              <div class="nav-wrapper">
+                <a href="index.html" class="brand-logo">eshita banerjee</a>
+
+                <a href="#" class="sidenav-trigger" data-target="mobile-nav">
+                  <i class="material-icons">menu</i>
+                </a>
+
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                  <li id="selected"><a href="projects.html">Projects</a></li>
+                  <li><a href="resume.html">Resume</a></li>
+                  <li><a href="about.html">About</a></li>
+                </ul>
+              </div>
+            </nav>
+
+            <ul class="sidenav" id="mobile-nav">
+              <li><a href="projects.html">projects</a></li>
+              <li><a href="resume.html">resume</a></li>
+              <li><a href="about.html">about</a></li>
+            </ul>
+
+          </div>
+      </header>
+                  <!-- Project 2 -->
+                  <div class="card" id="projectcard">
                     <div class="card-image waves-effect waves-block waves-light">
                       <img class="activator" src="assets/img/project2.png">
                     </div>
@@ -68,11 +71,29 @@
                 <p>My goal in this project was to envision new services, apps, and platforms that leverage Sheetz’s expertise and unique position in the convenience store space, and potentially, data from separate sensors and/or service ecosystems into your new service or platform. My service description defined how data is used to increase or activate value within my service.</p>
                 </div>
                   </div>
+                  <!-- Project 1  -->
+                  <div class="card" id="projectcard1">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <img class="activator" src="assets/img/project.png">
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title activator grey-text text-darken-4">Type And Hierarchy<i class="material-icons right">more_vert</i></span>
+                      <p><a href="https://medium.com/cdf-2018-fall/project-3-type-and-hierarchy-2805b7ed930c">Process</a></p>
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">Type And Hierarchy<i class="material-icons right">close</i></span>
+                      <p>This is a type specimen poster for the typeface Times New Roman.</p>
+                      <p>For this project I had to create a type specimen poster. I used the variables I have experimented with like scale, weight, linespacing, and
+                        indentation. I also used new ones such as color, tone, value, texture, and position.</p>
+                    </div>
+                  </div>
+               
                   <!-- Footer -->
                   <footer>
                     <p>Eshita Banerjee, Copyright &copy; 2020</p>
                 </footer>
                 <!--Materialize-->
                 <script type="text/javascript" src="assets/js/materialize.min.js"></script>
+                <script type="text/javascript" src="assets/js/main.js"></script>
             </body>
         </html>

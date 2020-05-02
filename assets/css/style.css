@@ -112,6 +112,7 @@ footer{
 }
 
 /*Nav Bar*/
+
 .nav-wrapper{
     background-color: #AEC6CF;
     font: 15px/1.5 Roboto, sans-serif;
@@ -172,4 +173,22 @@ nav ul a:focus {
 .card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating):hover {
     color: #AEC6CF;
     text-decoration: none;
+}
+
+/* Resume Position */
+iframe {
+    margin-left: 12.5%;   /* Automatic margin from left */ 
+    margin-right: 12.5%;
+   } 
+
+   /* Projects */
+   #projectcard {
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    height: 20%;
+}
+   #projectcard1 {
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    height: 700px;
 }
